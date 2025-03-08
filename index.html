@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boris & Horton - Opening Soon</title>
+    <style>
+        @font-face {
+            font-family: 'Sunday';
+            src: url('Sunday-Regular.otf') format('opentype'),
+                 url('Sunday-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        body {
+            background-color: #c0d8e7;
+            font-family: 'Sunday', 'Lato', sans-serif; /* Added Sunday font with fallbacks */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center; /* Center text for slogan */
+        }
+
+        .logo-container {
+            margin-bottom: 20px; /* Space between logo and slogan */
+
+        }
+        .logo{
+            max-width: 28rem;
+        
+        }
+
+        .slogan {
+            font-family: 'Sunday', 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 1.5em; /* Increased font size */
+            color: #333; /* Darker text for better readability */
+            padding: 0 20px; /* Add some horizontal padding for wider screens */
+            text-transform: uppercase;
+            line-height: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="name-only-logo.png" alt="Boris & Horton Logo" class="logo">
+    </div>
+    <p class="slogan">Business operations are on paws for now.<br>Sniff around elsewhere, but stay tuned—we'll unleash exciting plans soon!</p>
+</body>
+</html>
